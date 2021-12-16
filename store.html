@@ -1,0 +1,860 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TKQP Online Store</title>
+
+    <!--Bootstrap CDN-->
+    <link rel="stylesheet" 
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" 
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" 
+    crossorigin="anonymous"/>
+    
+<!--Font Awesome CDN-->
+<script src="https://kit.fontawesome.com/7bc7fe39bb.js" crossorigin="anonymous"></script>
+
+<!--Slick Slider-->
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
+<!--Custom Stylesheet-->
+<link rel="stylesheet" href="store.css"
+
+
+</head>
+<body>
+ 
+    <!--header-->
+
+    <header>
+<div class="container">
+<div class="row">
+    <div class="col-md-4 col-sm-12 col-12">
+<div class="btn-group">
+    <button class="btn border dropdown-toggle my-md-4 my-2 text-white" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">CDN</button>
+    <div class="dropdown-menu">
+        <a href="#" class="dropdown-item">USD-US<a>
+</div>
+</div>
+</div>
+<div class="col-md-12 text-center">
+<h2 class="my-md-3 site-title text-white "> The Kings & Queens Project </h2>
+</div>
+<div class="col-md-4 col-12 text-right">
+    <p class="my-md-4 header-links">
+        <a href="#" class="px-2">Sign In</a>
+        <a href="#" class="px-1">Create an Account</a>
+    </p>
+</div>
+</div>
+</div>
+<div class="container-fluid p-0">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <a class="navbar-brand" href="#">Online Store</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">FEATURES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">PRICING</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">LIVE</a>
+            </li>
+          </ul>
+        </div>
+        <div class="navbar-nav">
+            <li class="nav-item border rounded-circle mx-2 search-icon">
+                <i class="fas fa-search p-2"></i>
+            </li>
+            <li class="nav-item border rounded-circle mx-2 cart-icon">
+                <i class="fas fa-shopping-cart p-2"></i>
+            </li>
+        </div>
+      </nav>
+</div>
+    </header>
+
+    <!--/header-->
+
+    <!--Main Section-->
+    <main>
+
+        <!--First Slider-->
+<div class="container-fluid p-0">
+    <div class="site-slider">
+        <div class="slider-one">
+            <div>
+              <img src="https://i.imgur.com/huphzOn.png" class="img-fluid" height="400" width="700" alt="banner 1">
+            </div>
+            <div>
+              <img src="https://i.imgur.com/gWKybsY.jpg" class="img-fluid" height="400" width="700" alt="banner 2">
+            </div>
+            <div>
+              <img src="https://i.imgur.com/tgrw5jt.jpg" class="img-fluid" height="400" width="700" alt="banner 3">
+            </div>
+        </div>
+        <div class="slider-btn">
+          <span class="prev position-top"><i class="fas fa-chevron-left"></i></span>
+          <span class="next position-top right-0"><i class="fas fa-chevron-right"></i></span>
+        </div>
+    </div>
+</div>
+
+        <!--/First Slider-->
+
+        <!--Second Slider-->
+<div class="container-fluid">
+  <div class="site-slider-two px-md-4">
+<div class="row slider-two text-center">
+  <div class="col-md-2 product pt-md-5 pt-4">
+<img src="https://i.imgur.com/zWFr78G.jpg" height="200" width="200" alt="Product 1">
+<span class="border site-btn btn-span">ART</span>
+  </div>
+  <div class="col-md-2 product pt-md-5 pt-4">
+    <img src="https://i.imgur.com/GicX1KG.jpg" height="200" width="200" alt="Product 2">
+    <span class="border site-btn btn-span">MUSIC</span>
+      </div>
+      <div class="col-md-2 product pt-md-5 pt-4">
+        <img src="https://i.imgur.com/PglYjTb.jpg" height="200" width="200" alt="Product 3">
+        <span class="border site-btn btn-span">COLLECTION</span>
+          </div>
+          <div class="col-md-2 product pt-md-5 pt-4">
+            <img src="https://i.imgur.com/3p9G0hR.jpg" height="200" width="200" alt="Product 4">
+            <span class="border site-btn btn-span">MENS</span>
+              </div>
+              <div class="col-md-2 product pt-md-5 pt-4">
+                <img src="https://i.imgur.com/bbY5aKa.jpg" height="200" width="200" alt="Product 5">
+                <span class="border site-btn btn-span">WOMANS</span>
+                  </div>
+                  <div class="col-md-2 product pt-md-5 pt-4">
+                    <img src="https://i.imgur.com/Muu5ILU.jpg" height="200" width="200" alt="Product 6">
+                    <span class="border site-btn btn-span">SALE</span>
+                      </div>
+</div>
+<div class="slider-btn">
+  <span class="prev position-top"><i class="fas fa-chevron-left fa-2x text-secondary"></i></span>
+  <span class="next position-top right-0"><i class="fas fa-chevron-right fa-2x text-secondary"></i></span>
+</div>
+  </div>
+</div>
+
+  <!--/Second Slider-->
+        
+      <hr class="hr"/>
+
+       <!--Features Section-->
+
+<div class="container text-center">
+<div class="features">
+  <h1> Feature Products</h1>
+  <p class="text-secondary">
+    Amung these product are our best sellers & best designes, this section is for when we partner with other creators and display there product.
+  </p>
+</div>
+</div>
+
+
+<!--Features third Slider-->
+
+<div class="container-fluid">
+<div class="site-slider-three px-md-4">
+<div class="slider-three row text-center px-4">
+<div class="col-md-2 product pt-md-5">
+<img src="https://i.imgur.com/9WxrRa1.jpg" class="img-fluid" alt="image 1">
+<div class="cart-details">
+<h6 class="pro-title p-0">Space Man</h6>
+<div class="ratings">
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star-half-alt"></i>
+</div>
+<div class="pro-price py-2">
+  <h5>
+    <small><s class="text-secondary">$200.99</s></small>
+    <span>$100</span>
+  </h5>
+</div>
+<div class="cart mt-4">
+  <button class="border site-btn btn-span">Add to Cart</button>
+</div>
+</div>
+</div>
+<div class="col-md-2 product pt-md-5">
+  <img src="https://i.imgur.com/KhWITxm.jpg" class="img-fluid" alt="image 2">
+  <div class="cart-details">
+  <h6 class="pro-title p-0">NASA Orange</h6>
+  <div class="ratings">
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  </div>
+  <div class="pro-price py-2">
+    <h5>
+      <small><s class="text-secondary">$200.99</s></small>
+      <span>$100</span>
+    </h5>
+  </div>
+  <div class="cart mt-4">
+    <button class="border site-btn btn-span">Add to Cart</button>
+  </div>
+  </div>
+</div>
+<div class="col-md-2 product pt-md-5">
+  <img src="https://i.imgur.com/xcxdGVh.jpg" class="img-fluid" alt="image 3">
+  <div class="cart-details">
+  <h6 class="pro-title p-0">NASA Red </h6>
+  <div class="ratings">
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  </div>
+  <div class="pro-price py-2">
+    <h5>
+      <small><s class="text-secondary">$200.99</s></small>
+      <span>$100</span>
+    </h5>
+  </div>
+  <div class="cart mt-4">
+    <button class="border site-btn btn-span">Add to Cart</button>
+  </div>
+  </div>
+</div>
+<div class="col-md-2 product pt-md-5">
+  <img src="https://i.imgur.com/S7HtnKA.jpg" class="img-fluid" alt="image 4">
+  <div class="cart-details">
+  <h6 class="pro-title p-0">NASA Cap</h6>
+  <div class="ratings">
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star-half-alt"></i>
+  </div>
+  <div class="pro-price py-2">
+    <h5>
+      <span>$100</span>
+    </h5>
+  </div>
+  <div class="cart mt-4">
+    <button class="border site-btn btn-span">Add to Cart</button>
+  </div>
+  </div>
+</div>
+<div class="col-md-2 product pt-md-5">
+  <img src="https://i.imgur.com/tiBtoQd.jpg" class="img-fluid" alt="image 5">
+  <div class="cart-details">
+  <h6 class="pro-title p-0">NASA T </h6>
+  <div class="ratings">
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  </div>
+  <div class="pro-price py-2">
+    <h5>
+      <small><s class="text-secondary">$200.99</s></small>
+      <span>$100.00</span>
+    </h5>
+  </div>
+  <div class="cart mt-4">
+    <button class="border site-btn btn-span">Add to Cart</button>
+  </div>
+  </div>
+</div>
+<div class="col-md-2 product pt-md-5">
+  <img src="https://i.imgur.com/GRsr3wv.jpg" class="img-fluid" alt="image 6">
+  <div class="cart-details">
+  <h6 class="pro-title p-0">Ice Cube </h6>
+  <div class="ratings">
+<span>Write your own review</span>
+  </div>
+  <div class="pro-price py-2">
+    <h5>
+      <small><s class="text-secondary">$200.99</s></small>
+      <span>$100.00</span>
+    </h5>
+  </div>
+  <div class="cart mt-4">
+    <button class="border site-btn btn-span">Add to Cart</button>
+  </div>
+  </div>
+</div>
+</div>
+<div class="slider-btn">
+  <span class="prev position-top"><i class="fas fa-chevron-left fa-2x text-secondary"></i></span>
+  <span class="next position-top right-0"><i class="fas fa-chevron-right fa-2x text-secondary"></i></span>
+</div>
+</div>
+</div>
+<!--/Features third Slider-->
+       <!--/Features Section-->
+
+       <!--Sale Section-->
+
+<div class="container-fluid sale bg-white">
+<div class="row">
+    <div class="col-md-6 col-12">
+<div class="row box">
+  <div class="col-md-2 p-0 pl-md-3 bg-light offset-1  d-flex-md-column flex-sm-row">
+    <div class="py-md-2 py-2 mt-3 bg-white borded text-center">
+<h5 class="primary-color"><strong>125</strong></h5>
+<em>Days</em>
+    </div>
+    <div class="py-md-2 py-2 mt-3 bg-white borded text-center">
+      <h5 class="primary-color"><strong>25</strong></h5>
+      <em>Hours</em>
+          </div>
+          <div class="py-md-2 py-2 mt-3 bg-white borded text-center">
+            <h5 class="primary-color"><strong>15</strong></h5>
+            <em>Mins</em>
+                </div>
+                <div class="py-md-2 py-2 mt-3 bg-white borded text-center">
+                  <h5 class="primary-color"><strong>55</strong></h5>
+                  <em>Secs</em>
+                      </div>
+  </div>
+  <div class="col-md-8 p-0 bg-white">
+    <div class="text-left">
+      <img src="https://i.imgur.com/IghvPom.jpg" alt="King Nip Art" class="img-fluid">
+    </div>
+  </div>
+</div>
+    </div>
+    <div class="col-md-6 col-12 pt-5">
+<h4 class="text-left">King Nip Art</h4>
+<p class="text-secondary pr-5 pt-3">
+  <small>They say the good die young, but the great live forever! Long live King Nip TMC!</small>
+</p>
+<div class="rating light-blue">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+</div>
+<h4 class="pt-2">
+  <small><s class="text-secondary">$200</s></small>
+  <span class="text-color">$100</span>
+</h4>
+<div class="cart mr-4 row">
+  <div class="col-md-4 col-sm-12 p-0">
+<button class="border site-btn btn-span bg-primary-color text-white">Add to Cart</button>
+  </div>
+  <div class="col-md-5 col-sm-12 p-0 mt-3">
+<span class="p-3 bg-white border rounded-circle"><i class="fas fa-heart"></i></span>
+<span class="p-3 bg-white border rounded-circle"><i class="fas fa-sync-alt"></i></span>
+<span class="p-3 bg-white border rounded-circle"><i class="fas fa-search"></i></span>
+
+</div>
+</div>
+    </div>
+  </div>
+</div>
+
+       <!--/Sale Section-->
+  
+<div class="container-fluid">
+  <div class="site-slider-four px-md-4">
+<div class="slider-four row text-center">
+<div class="col-md-2 product pt-5 md-5">
+<img src="https://i.imgur.com/zYJ0dWs.jpg" class="border img-fluid" alt="product 1">
+</div>
+<div class="col-md-2 product pt-5 md-5">
+<img src="https://i.imgur.com/zYJ0dWs.jpg" class="border img-fluid" alt="product 2">
+</div>
+<div class="col-md-2 product pt-5 md-5">
+  <img src="https://i.imgur.com/zYJ0dWs.jpg" class="border img-fluid" alt="product 3">
+</div>
+<div class="col-md-2 product pt-5 md-5">
+  <img src="https://i.imgur.com/zYJ0dWs.jpg" class="border img-fluid" alt="product 4">
+</div>
+<div class="col-md-2 product pt-5 md-5">
+  <img src="https://i.imgur.com/zYJ0dWs.jpg" class="border img-fluid" alt="product 5">
+</div>
+<div class="col-md-2 product pt-5 md-5">
+  <img src="https://i.imgur.com/zYJ0dWs.jpg" class="border img-fluid" alt="product 6">
+</div>
+</div>
+<div class="slider-btn">
+  <span class="prev position-top"><i class="fas fa-chevron-left fa-2x text-secondary"></i></span>
+  <span class="next position-top right-0"><i class="fas fa-chevron-right fa-2x text-secondary"></i></span>
+</div>
+</div>
+
+<div class="container my-5">
+  <div class="row">
+<div class="col-md-8 col-12">
+  <img src="https://i.imgur.com/28yAXu0.jpg" class="img-fluid" alt="Banner 1">
+  </div>
+  <div class="col-md-4 col-12">
+    <img src="https://i.imgur.com/TVfISSr.jpg" class="img-fluid" alt="Banner 2">
+</div>
+  </div>
+  <div class="row my-md-3">
+    <div class="col-md-4 col-12">
+      <img src="https://i.imgur.com/rEBtHMr.jpg" class="img-fluid" alt="Banner 3">
+    </div>
+    <div class="col-md-8 col-12">
+    <img src="https://i.imgur.com/visSivY.jpg" width="400" height="500" class="img-fluid" alt="Banner 4"> 
+  </div>
+</div>
+</div>
+
+<!-- New Best and Features sellers-->
+
+<div class="container">
+  <div class="newseller">
+    <div class="row">
+      <div class="col-md-4 col-sm-6">
+        <h3 class="text-secondary">New Arrivals</h3>
+        <div class="row py-3">
+          <div class="col-md-3 p-0">
+            <div class="items border">
+              <img src="https://i.imgur.com/VqQTk7B.jpg" alt="imgage 1" class="img-fluid">
+            </div>
+          </div>
+          <div class="col-md-9 p-0 py-4 py-md-0">
+            <div class="px-4">
+              <h6>World Art</h6>
+              <div class="rating pb-2">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <h5>
+                <small><s class="text-secondary">$129.99</s></small>
+                <span class="text-color">$50</span>
+              </h5>
+            </div>
+          </div>
+        </div>
+        <div class="row py-3">
+          <div class="col-md-3 p-0">
+            <div class="items border">
+              <img src="https://i.imgur.com/FN8FJva.jpg" alt="imgage 2" class="img-fluid">
+            </div>
+          </div>
+          <div class="col-md-9 p-0 py-4 py-md-0">
+            <div class="px-4">
+              <h6>B&W City</h6>
+              <div class="rating pb-2">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <h5>
+                <small><s class="text-secondary">$129.99</s></small>
+                <span class="text-color">$50</span>
+              </h5>
+            </div>
+          </div>
+        </div>
+        <div class="row py-3">
+          <div class="col-md-3 p-0">
+            <div class="items border">
+              <img src="https://i.imgur.com/zbpY1K1.jpg" alt="imgage 3" class="img-fluid">
+            </div>
+          </div>
+          <div class="col-md-9 p-0 py-4 py-md-0">
+            <div class="px-4">
+              <h6>MEH</h6>
+              <div class="rating pb-2">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <h5>
+                <small><s class="text-secondary">$129.99</s></small>
+                <span class="text-color">$50</span>
+              </h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <h3 class="text-secondary">Best Sellers</h3>
+        <div class="row py-3">
+          <div class="col-md-3 p-0">
+            <div class="items border">
+              <img src="https://i.imgur.com/zbpY1K1.jpg" alt="imgage 3" class="img-fluid">
+            </div>
+          </div>
+          <div class="col-md-9 p-0 py-4 py-md-0">
+            <div class="px-4">
+              <h6>MEH</h6>
+              <div class="rating pb-2">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <h5>
+                <small><s class="text-secondary">$129.99</s></small>
+                <span class="text-color">$50</span>
+              </h5>
+            </div>
+          </div>
+        </div>
+        <div class="row py-3">
+          <div class="col-md-3 p-0">
+            <div class="items border">
+              <img src="https://i.imgur.com/zbpY1K1.jpg" alt="imgage 3" class="img-fluid">
+            </div>
+          </div>
+          <div class="col-md-9 p-0 py-4 py-md-0">
+            <div class="px-4">
+              <h6>MEH</h6>
+              <div class="rating pb-2">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <h5>
+                <small><s class="text-secondary">$129.99</s></small>
+                <span class="text-color">$50</span>
+              </h5>
+            </div>
+          </div>
+        </div>
+        <div class="row py-3">
+          <div class="col-md-3 p-0">
+            <div class="items border">
+              <img src="https://i.imgur.com/zbpY1K1.jpg" alt="imgage 3" class="img-fluid">
+            </div>
+          </div>
+          <div class="col-md-9 p-0 py-4 py-md-0">
+            <div class="px-4">
+              <h6>MEH</h6>
+              <div class="rating pb-2">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <h5>
+                <small><s class="text-secondary">$129.99</s></small>
+                <span class="text-color">$50</span>
+              </h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <h3 class="text-secondary">Featured</h3>
+        <div class="row py-3">
+          <div class="col-md-3 p-0">
+            <div class="items border">
+              <img src="https://i.imgur.com/zbpY1K1.jpg" alt="imgage 3" class="img-fluid">
+            </div>
+          </div>
+          <div class="col-md-9 p-0 py-4 py-md-0">
+            <div class="px-4">
+              <h6>MEH</h6>
+              <div class="rating pb-2">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <h5>
+                <small><s class="text-secondary">$129.99</s></small>
+                <span class="text-color">$50</span>
+              </h5>
+            </div>
+          </div>
+        </div>
+        <div class="row py-3">
+          <div class="col-md-3 p-0">
+            <div class="items border">
+              <img src="https://i.imgur.com/zbpY1K1.jpg" alt="imgage 3" class="img-fluid">
+            </div>
+          </div>
+          <div class="col-md-9 p-0 py-4 py-md-0">
+            <div class="px-4">
+              <h6>MEH</h6>
+              <div class="rating pb-2">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <h5>
+                <small><s class="text-secondary">$129.99</s></small>
+                <span class="text-color">$50</span>
+              </h5>
+            </div>
+          </div>
+        </div>
+        <div class="row py-3">
+          <div class="col-md-3 p-0">
+            <div class="items border">
+              <img src="https://i.imgur.com/zbpY1K1.jpg" alt="imgage 3" class="img-fluid">
+            </div>
+          </div>
+          <div class="col-md-9 p-0 py-4 py-md-0">
+            <div class="px-4">
+              <h6>MEH</h6>
+              <div class="rating pb-2">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <h5>
+                <small><s class="text-secondary">$129.99</s></small>
+                <span class="text-color">$50</span>
+              </h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--/New Best and Features sellers-->
+
+<!--Brand-->
+
+<div class="container-fluid">
+  <div class="slider-brand">
+    <div class="slider-five px-9">
+<div>
+  <img src="https://i.imgur.com/uMzkcZh.png" alt="brand 1" class="img-fluid">
+</div>
+<div>
+  <img src="https://i.imgur.com/gWKybsY.jpg" alt="brand 2" class="img-fluid">
+</div>
+<div>
+  <img src="https://i.imgur.com/uMzkcZh.png" alt="brand 3" class="img-fluid">
+</div>
+<div>
+  <img src="https://i.imgur.com/3p9G0hR.jpg" alt="brand 4" class="img-fluid">
+</div>
+<div>
+  <img src="https://i.imgur.com/3p9G0hR.jpg" alt="brand 5" class="img-fluid">
+</div>
+<div>
+  <img src="https://i.imgur.com/uMzkcZh.png" alt="brand 6" class="img-fluid">
+</div>
+<div>
+  <img src="https://i.imgur.com/uMzkcZh.png" alt="brand 7" class="img-fluid">
+</div>
+ </div>
+ <div class="slider-btn">
+  <span class="prev position-top"><i class="fas fa-chevron-left"></i></span>
+  <span class="next position-top right-0"><i class="fas fa-chevron-right"></i></span>
+</div>
+</div>
+</div>
+
+<!--/Brand-->
+
+
+<!--Our Client-->
+
+<div class="container-fluid p-o">
+  <div class="slider-client">
+    <div class="slider-box text-center">
+      <h1 class="pt-5 font-gugi">What The People Say?</h1>
+      <div class="slider-six">
+        <div>
+          <p>
+            TKQP is Amazing to work with always good customer servies i look forward to all the new good quality gear comming this spring!
+          </p>
+          <h5 class="m-0"> Emily Lalchan</h5>
+          <small class="pb-1">Brand Ambassador TKQP</small>
+        </div>
+        <div>
+          <p>
+            The come up is real, TKQP took get rich or die trying to the next lvl. Get it young King!
+          </p>
+          <h5 class="m-0"> 50 Cent</h5>
+          <small class="pb-1">Bussiness Man</small>
+        </div>
+        <div>
+          <p>
+            TKQP is Amazing to work with always good customer servies i look forward to all the new good quality gear comming this spring!
+          </p>
+          <h5 class="m-0">Jay-z</h5>
+          <small class="pb-1">Billionaire</small>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--/Our Client-->
+
+
+<!--Facilities-->
+
+<div class="container-fluid p-0">
+  <div class="site-info">
+    <div class="row text-center py-3 bg-primary-color m-0">
+      <div class="col-md-4 col-sm-12 my-md-0 my-4">
+        <div class="row justify-content-center text-light">
+          <i class="fas fa-rocket fa-4x px-4"></i>
+          <div class="py-2 font-roboto text-left">
+            <h6 class="m-0">Free Shipping & Return</h6>
+            <small>Free Shipping on orders over $50</small>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-12 my-md-0 my-4">        
+        <div class="row justify-content-center text-light">
+        <i class="fas fa-hand-holding-usd fa-4x px-4"></i>
+        <div class="py-2 font-roboto text-left">
+          <h6 class="m-0">Money Guarantee</h6>
+          <small>30 days money back guarantee</small>
+        </div>
+      </div>
+    </div>
+      <div class="col-md-4 col-sm-12 my-md-0 my-4">
+        <div class="row justify-content-center text-light">
+        <i class="fas fa-headphones-alt fa-4x px-4"></i>
+        <div class="py-2 font-roboto text-left">
+          <h6 class="m-0">Online Support</h6>
+          <small>Online support 24 hours</small>
+        </div>
+      </div></div>
+
+    </div>
+  </div>
+</div>
+
+<!--/Facilities-->
+    </main>
+
+    <!--/Main Section-->
+    <footer>
+
+<div class="container-fluid px-5">
+<div class="row">
+  <div class="col-md-4 col-sm-12">
+    <h4>Contact Us</h4>
+    <div class="row pl-md-1 text-secondary">
+      <div class="col-12">
+        <i class="fa fa-home px-md-2"></i>
+        <small>Ontario , Canada</small>
+      </div>
+    </div>
+    <div class="row pl-md-1 text-secondary py-4">      
+      <div class="col-12">
+      <i class="fa fa-paper-plane px-md-2"></i>
+      <small>Thekingsnqueensproject@gmail.com</small>
+    </div>
+  </div>
+  <div class="row pl-md-1 text-secondary">
+    <div class="col-12">
+      <i class="fa fa-phone-volume px-md-2"></i>
+      <small>(905)-555-5555</small>
+    </div>
+  </div>
+<div class="row social">
+      <div class="col-12 py-3">
+      <i class="fab fa-twitter"></i>
+      <i class="fab fa-facebook-f"></i>
+      <i class="fab fa-google-plus-g"></i>
+      <i class="fab fa-youtube"></i>
+      <i class="fab fa-instagram"></i>
+      <i class="fab fa-linkedin-in"></i>
+      <i class="fab fa-pinterest"></i>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-2 col-sm-12">
+    <h4>Our Services</h4>
+    <div class="d-flex flex-column pl-md-3">
+      <small class="pt-0">Content Creation</small>
+      <small>Online Store</small>
+      <small>Online Radio</small>
+      <small>Online Magazine</small>
+      <small>Custom T-shirts</small>
+    </div>
+  </div>
+  <div class="col-md-2 col-sm-12">
+    <h4>Extras</h4>
+    <div class="d-flex flex-column pl-md-3">
+      <small class="pt-0">Content Creation</small>
+      <small>About Store</small>
+      <small>New Collection</small>
+      <small>Contact Us</small>
+    </div>
+  </div>
+  <div class="col-md-4 follow-us col-sm-12">
+    <h4>Follow Us On Instagram</h4>
+    <div class="d-flex flex-row">
+<img src="https://i.imgur.com/9gp7Wgp.jpg" alt="instagram 1"  height="100" width="100">
+<img src="https://i.imgur.com/xwtorca.jpg" alt="instagram 2"  height="100" width="100"> 
+<img src="https://i.imgur.com/xn8JRrh.jpg" alt="instagram 3" height="100" width="100">
+    </div>
+    <div class="d-flex flex-row">
+      <img src="https://i.imgur.com/9gp7Wgp.jpg" alt="instagram 1"  height="100" width="100">
+      <img src="https://i.imgur.com/xwtorca.jpg" alt="instagram 2"  height="100" width="100"> 
+      <img src="https://i.imgur.com/xn8JRrh.jpg" alt="instagram 3" height="100" width="100">
+          </div>
+  </div>
+</div>
+</div>
+
+<div class="container-fluid news pt-5">
+  <div class="row">
+    <div class="col-md-6 col-12 pl-5">
+      <h4 class="primary-color font-gugi m-0 p-0">Have Questions? Send an Email</h4>
+      <p class="m-0 p-0 text-secondary">Give us a full 24hrs to respond</p>
+    </div>
+      <div class="col-md-4 col-12 my-md-0 my-3 pl-md-0 pl-5">
+        <input type="text" class="form-control border-0 bg-light" placeholder="Enter Your Email Address">
+      </div>
+        <div class="col-md-2 col-m12 my-md-0 my-3 pl-md-0 pl-5">
+          <button class="btn bg-primary-color text-white">Subscribe</button>
+        </div>
+  </div>
+</div>
+<div class="container text-center">
+  <p class="pt-5">
+    <img src="https://i.imgur.com/sN6QrJV.png" alt="payment image" class="img-fluid">
+  </p>
+  <small class="text-secondary py-4">The Kings & Queens Project ©️ 2020 Online Store. All Rights Reserved</small>
+</div>
+
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="store.js"></script>
+</body>
+</html>

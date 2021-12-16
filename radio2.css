@@ -1,0 +1,245 @@
+body{
+    margin:0;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.486)!important;
+    color: #fff !important;
+}
+
+.music-container{
+    font-family: gugi;
+    width: 40rem;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    position: absolute;
+    background-image: url(https://i.imgur.com/z4b9RYO.jpg);
+    background-size: cover;
+}
+
+.music-header{
+    width: 100%;
+    height: 50px;
+    border-bottom: 5px solid goldenrod;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.404), rgba(218, 165, 32, 0.336));
+}
+
+.music-header .fa-angle-left{
+    float: left;
+    margin-top: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.music-header .fa-search{
+    float: right;
+    margin-top: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.music-header .title{
+    width: 250px;
+    height: 30px;
+    position: absolute;
+    margin-left: 192px;
+    margin-top: 10px;
+    text-align: center;
+    padding-left: 10px;
+}
+
+.music-playlist{
+    width: 100%;
+    height: 450px;
+}
+
+.music-menu{
+    max-width: 100%;
+    height: 28px;
+}
+
+.menu{
+    max-width: 100%;
+    height: 25px;
+    margin: 15px 30px auto;
+    border-radius: 10px;
+    border: 1px solid goldenrod;
+}
+
+.menu ul{
+    font-size: 10ox;
+    padding: initial;
+}
+
+.menu ul li{
+    list-style-type: none;
+    display: inline-block;
+    border-right: 1px solid goldenrod;
+}
+
+.menu ul li a{
+    color: #fff;
+    padding: 5px 15px;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.menu ul li:last-child{
+    border-right:none
+}
+
+.music-box{
+    width: 100%;
+    height: 410px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.music-box::-webkit-scrollbar{
+    width: 0px;
+    background: transparent;
+}
+
+.music-box .fa-ellipsis-v{
+    margin-right: 10px;
+    margin-top: 22px;
+    color: goldenrod;
+    cursor: pointer;
+}
+
+.music-info{
+    width: 100%;
+    height: 50px;
+    display: flex;
+}
+
+.music-img{
+    width: 50px;
+    height: 50px;
+}
+
+
+.music-img img{
+    width: 50px;
+    height: 60px;
+    margin: 2px 5px;
+    padding: 5px;
+}
+
+.music-name{
+    width: 100%;
+    padding: 0 5px;
+    height: 50px;
+}
+
+.music-name h6{
+    margin-top: 7px;
+    font-size: 25px;
+    letter-spacing: .5px;
+    line-height: 35px;
+}
+
+.music-name p{
+    font-size: 15px;
+    line-height: 1px;
+    color: goldenrod;
+    cursor: pointer;
+}
+
+hr{
+    width: 95%;
+    margin-top: 4px !important;
+    margin-bottom: 6px !important;
+}
+
+.music-player{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    background-color:#181818;
+}
+
+.play-image img{
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    border-radius: 3px;
+}
+
+.play-controls{
+    width: 300px;
+    height: 60px;
+}
+
+.controls{
+    width: 500px;
+    height: 50px;
+    display: flex;
+}
+
+.song-name{
+    width: 100%;
+    height: 50px;
+}
+
+.song-name h5{
+    margin-top: 18px;
+    margin-left: 10px;
+    font-size: '';
+    font-weight: normal;
+    letter-spacing: 0.5px;
+    line-height: 3px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+}
+
+.song-name p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 5px;
+    letter-spacing: 0.1px;
+    color: #fff;
+    font-size: 12px;
+}
+
+.play-icon{
+    width: 100%;
+    height: 50px;
+}
+
+.play-icon .fa{
+    width: 28px;
+    height: 30px;
+    float:right;
+    font-size: 13px;
+    color:#181818;
+    border-radius: 50%;
+    background-color: #FFF;
+    margin: 15px 3px 0 auto;
+    padding: 9px 11px;
+    cursor: pointer;
+}
+
+.play-icon .fa-play{
+    background-color: gold;
+}
+
+.music-progress{
+    width: 100%;
+    margin-left: '';
+}
+
+.music-progress .progress{
+    height: 10px !important;
+    border-radius: 0 !important;
+    background-color:#fff;
+}
+
+.music-progress .progress-bar{
+    width:0%;
+    background-color: goldenrod;
+    animation: width 10s infinite;
+}
+
+@keyframes width{
+    100%{width: 100%;}
+}
