@@ -3,6 +3,12 @@ const selectElement = function (element) {
     return document.querySelector(element);
 };
 
+function message() {
+    alert("THIS IS JUST AN EXAMPLE PAGE FOR MORE EXAMPLES CLICK THE TKQPSHOP LINK ");
+  }
+
+  const aNum = Number(window.prompt("enter the number", ""));
+
 let menuToggler = selectElement('.menu-toggle');
 let body = selectElement('body');
 
