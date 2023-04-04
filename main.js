@@ -4,10 +4,9 @@ const selectElement = function (element) {
 };
 
 function message() {
-    alert("THIS IS JUST AN EXAMPLE PAGE FOR MORE EXAMPLES CLICK THE TKQPSHOP LINK ");
+    alert("THIS IS JUST AN EXAMPLE PAGE FOR MORE EXAMPLES CLICK THE SHOPTKQP LINK ");
   }
 
-  const aNum = Number(window.prompt("enter the number", ""));
 
 let menuToggler = selectElement('.menu-toggle');
 let body = selectElement('body');
